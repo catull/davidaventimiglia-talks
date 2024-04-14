@@ -1,0 +1,19 @@
+# -*- mode: graphql; -*-
+
+type Query {
+  accountById(id: ID!): account
+  allAccounts: [account]!
+  allAccountsWithLimit(limit: Int!): [account]!
+
+  orderById(id: ID!): order
+  allOrders: [order]!
+  allOrdersWithLimit(limit: Int!): [order]!
+
+  orderDetailById(id: ID!): orderDetail
+  allOrderDetails: [orderDetail]!
+  allOrderDetailsWithLimit(limit: Int!): [orderDetail]!
+
+  productById(id: ID!): product
+  allProducts: [product]!
+  allProductsWithLimit(limit: Int!): [product]!
+}

@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <include file="./index-0-account_name_idx.xml"            relativeToChangelogFile="true" />
+    <include file="./index-1-order_detail_order_id_idx.xml"   relativeToChangelogFile="true" />
+    <include file="./index-2-order_detail_product_id_idx.xml" relativeToChangelogFile="true" />
+    <include file="./index-3-order_account_id_idx.xml"        relativeToChangelogFile="true" />
+    <include file="./index-4-order_status_idx.xml"            relativeToChangelogFile="true" />
+    <include file="./index-5-order_region_idx.xml"            relativeToChangelogFile="true" />
+
+</databaseChangeLog>

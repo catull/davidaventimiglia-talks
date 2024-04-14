@@ -1,0 +1,13 @@
+type Mutation {
+    createAccount(account: AccountInput): account
+    deleteAccountById(id: ID!): account
+
+    createOrder(order: OrderInput): order
+    deleteOderById(id: ID!): order
+
+    createOrderDetail(orderDetail: OrderDetailInput): orderDetail
+    deleteOderDetailById(id: ID!): orderDetail
+
+    createProduct(product: ProductInput): product
+    deleteProductById(id: ID!): product
+}

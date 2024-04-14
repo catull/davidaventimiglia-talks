@@ -1,0 +1,18 @@
+# -*- mode: graphql; -*-
+
+input AccountInput {
+  name: String
+}
+
+input OrderInput {
+  status: String
+}
+
+input OrderDetailInput {
+  units: Int
+}
+
+input ProductInput {
+  name: String
+  price: Int
+}

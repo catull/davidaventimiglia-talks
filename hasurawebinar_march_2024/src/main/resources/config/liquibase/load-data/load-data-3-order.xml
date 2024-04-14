@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="utf-8" standalone="no"?>
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+  <changeSet author="postgres-admin" id="load-data-3-order-1">
+    <sqlFile path="./load-data-order-1.sql" relativeToChangelogFile="true" encoding="UTF-8" />
+  </changeSet>
+
+  <changeSet author="postgres-admin" id="load-data-3-order-2">
+    <sqlFile path="./load-data-order-2.sql" relativeToChangelogFile="true" encoding="UTF-8" />
+  </changeSet>
+
+  <changeSet author="postgres-admin" id="load-data-3-order-status-3">
+    <sql>
+      <![CDATA[
+        UPDATE "order" SET status = ((array['new', 'processing', 'fulfilled'])[floor(random()*3+1)])::status;
+      ]]>
+    </sql>
+  </changeSet>
+
+  <changeSet author="postgres-admin" id="load-data-3-order-region-4">
+    <sql>
+    <![CDATA[
+      UPDATE "order" SET region = ((array[
+          'NORTHEAST',
+          'MIDWEST',
+          'SOUTH',
+          'PLAINS',
+          'APPALACHIA',
+          'MOUNTAIN',
+          'NORTHWEST',
+          'WEST',
+          'SOUTHWEST'
+       ])[floor(random()*9+1)])::text;
+      ]]>
+    </sql>
+  </changeSet>
+</databaseChangeLog>

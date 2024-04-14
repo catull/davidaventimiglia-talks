@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet author="postgres-admin" id="view-account_summary-8">
+        <createView fullDefinition="false" schemaName="public" viewName="account_summary">
+            <![CDATA[
+            SELECT "account".id,
+                   sum (("order_detail".units * "product".price)) AS sum
+            FROM (((account
+                JOIN "order"        ON (("order".account_id      = "account".id)))
+                JOIN "order_detail" ON (("order_detail".order_id = "order".id)))
+                JOIN "product"      ON (("product".id            = "order_detail".product_id)))
+            GROUP BY "account".id;
+            ]]>
+      </createView>
+    </changeSet>
+
+</databaseChangeLog>

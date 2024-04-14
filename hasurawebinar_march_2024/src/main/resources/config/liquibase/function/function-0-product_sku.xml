@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet author="postgres-admin" id="function-0-product_sku-1">
+        <sql>
+            <![CDATA[
+                create or replace function product_sku (product_row product)
+                returns text as $$
+                select md5(product_row.name)
+                $$ language sql stable;
+            ]]>
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

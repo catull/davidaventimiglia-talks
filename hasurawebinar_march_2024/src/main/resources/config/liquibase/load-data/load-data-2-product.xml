@@ -1,0 +1,4009 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+  <changeSet author="postgres-admin" id="load-data-2-product-1">
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sugar - Brown, Individual" />
+      <column name="price" value="874" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Zucchini - Green" />
+      <column name="price" value="23" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sour Cream" />
+      <column name="price" value="788" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Capon - Breast, Wing On" />
+      <column name="price" value="372" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ice Cream - Super Sandwich" />
+      <column name="price" value="166" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Tortellini, Fresh" />
+      <column name="price" value="412" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Squeeze Bottle" />
+      <column name="price" value="889" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ice Cream - Super Sandwich" />
+      <column name="price" value="335" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Merlot Vina Carmen" />
+      <column name="price" value="409" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Semi Dry Riesling Vineland" />
+      <column name="price" value="210" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pails With Lids" />
+      <column name="price" value="677" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread Cranberry Foccacia" />
+      <column name="price" value="552" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Port - 74 Brights" />
+      <column name="price" value="767" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Compound Coating" />
+      <column name="price" value="540" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chilli Paste, Hot Sambal Oelek" />
+      <column name="price" value="919" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mix Pina Colada" />
+      <column name="price" value="660" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sage Ground Wiberg" />
+      <column name="price" value="762" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bar Special K" />
+      <column name="price" value="986" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Icecream Cone - Areo Chocolate" />
+      <column name="price" value="79" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Dark" />
+      <column name="price" value="730" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Fennel - Seeds" />
+      <column name="price" value="283" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Ocean Spray Kiwi" />
+      <column name="price" value="300" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Eggplant - Baby" />
+      <column name="price" value="795" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chilli Paste, Sambal Oelek" />
+      <column name="price" value="313" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Ham Hocks - Smoked" />
+      <column name="price" value="933" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Masi Valpolocell" />
+      <column name="price" value="413" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells Chicken" />
+      <column name="price" value="128" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells" />
+      <column name="price" value="173" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Snapple Raspberry Tea" />
+      <column name="price" value="49" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Heinekin" />
+      <column name="price" value="313" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Uniform Linen Charge" />
+      <column name="price" value="849" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Split Peas - Green, Dry" />
+      <column name="price" value="112" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Squash - Pepper" />
+      <column name="price" value="933" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - White, Gewurtzraminer" />
+      <column name="price" value="333" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Black Currants" />
+      <column name="price" value="84" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oxtail - Cut" />
+      <column name="price" value="939" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells, Creamy" />
+      <column name="price" value="265" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Winzer Krems Gruner" />
+      <column name="price" value="298" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Butcher Twine 4r" />
+      <column name="price" value="918" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Smoked Back Bacon" />
+      <column name="price" value="621" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shrimp - Black Tiger 26/30" />
+      <column name="price" value="118" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Plastic Wrap" />
+      <column name="price" value="374" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - White, Ej" />
+      <column name="price" value="959" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rice Paper" />
+      <column name="price" value="106" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tomato - Peeled Italian Canned" />
+      <column name="price" value="973" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - True North Strong Ale" />
+      <column name="price" value="730" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cakes Assorted" />
+      <column name="price" value="762" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Basil - Thai" />
+      <column name="price" value="519" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yogurt - Raspberry, 175 Gr" />
+      <column name="price" value="505" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Kellogs Raisan Bran Bars" />
+      <column name="price" value="473" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Mouton Cadet" />
+      <column name="price" value="49" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Sleeman Fine Porter" />
+      <column name="price" value="360" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Macadamia" />
+      <column name="price" value="331" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Lasagna Beef" />
+      <column name="price" value="904" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bacon Strip Precooked" />
+      <column name="price" value="960" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ice Cream Bar - Oreo Cone" />
+      <column name="price" value="23" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Bouchard La Vignee Pinot" />
+      <column name="price" value="987" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Pinot Noir Mondavi Coastal" />
+      <column name="price" value="22" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Milk - 2% 250 Ml" />
+      <column name="price" value="30" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Hamburger Buns" />
+      <column name="price" value="442" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetizer - Asian Shrimp Roll" />
+      <column name="price" value="53" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Assorted Desserts" />
+      <column name="price" value="756" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Extract - Vanilla,artificial" />
+      <column name="price" value="348" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Toothpick Frilled" />
+      <column name="price" value="100" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Curry Paste - Madras" />
+      <column name="price" value="206" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chinese Foods - Thick Noodles" />
+      <column name="price" value="902" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Doilies - 10, Paper" />
+      <column name="price" value="890" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Steel Wool S.o.s" />
+      <column name="price" value="292" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Choclate Baked" />
+      <column name="price" value="513" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Anisette - Mcguiness" />
+      <column name="price" value="166" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbellschix Stew" />
+      <column name="price" value="433" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - White, Mix" />
+      <column name="price" value="274" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Assorted Desserts" />
+      <column name="price" value="684" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cake Circle, Foil, Scallop" />
+      <column name="price" value="756" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Swiss" />
+      <column name="price" value="487" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - George Duboeuf Rose" />
+      <column name="price" value="279" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Back, Short Cut, Boneless" />
+      <column name="price" value="132" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Syrup - Monin, Swiss Choclate" />
+      <column name="price" value="490" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Syrup - Monin, Irish Cream" />
+      <column name="price" value="578" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Salted" />
+      <column name="price" value="425" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Broom - Corn" />
+      <column name="price" value="571" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Apple, 1.36l" />
+      <column name="price" value="434" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chips - Assorted" />
+      <column name="price" value="804" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Knuckle" />
+      <column name="price" value="812" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Broom - Push" />
+      <column name="price" value="339" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab Silver Fusion" />
+      <column name="price" value="646" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flavouring - Orange" />
+      <column name="price" value="283" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Ranch Dressing" />
+      <column name="price" value="428" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Snails - Large Canned" />
+      <column name="price" value="987" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Towels - Paper / Kraft" />
+      <column name="price" value="172" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lemonade - Kiwi, 591 Ml" />
+      <column name="price" value="539" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yogurt - Blueberry, 175 Gr" />
+      <column name="price" value="82" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Napkin - Cocktail,beige 2 - Ply" />
+      <column name="price" value="38" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb - Leg, Boneless" />
+      <column name="price" value="709" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Steel Wool S.o.s" />
+      <column name="price" value="383" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Chicken Wings" />
+      <column name="price" value="125" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Kellogs Special K Cereal" />
+      <column name="price" value="624" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Mix - Carrot" />
+      <column name="price" value="739" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Basil - Dry, Rubbed" />
+      <column name="price" value="719" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Rolls, Corn" />
+      <column name="price" value="159" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flour - Whole Wheat" />
+      <column name="price" value="308" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Munchies Honey Sweet Trail Mix" />
+      <column name="price" value="813" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread Foccacia Whole" />
+      <column name="price" value="797" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sprouts - Onion" />
+      <column name="price" value="960" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells, Minestrone" />
+      <column name="price" value="201" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tart - Raisin And Pecan" />
+      <column name="price" value="276" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cinnamon - Ground" />
+      <column name="price" value="487" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Cooked, Corned" />
+      <column name="price" value="808" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Heart" />
+      <column name="price" value="934" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Mix - Chocolate Chip" />
+      <column name="price" value="532" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Rolls, Rye" />
+      <column name="price" value="641" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chinese Lemon Pork" />
+      <column name="price" value="662" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dc - Frozen Momji" />
+      <column name="price" value="544" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cocoa Powder - Natural" />
+      <column name="price" value="161" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chicken Breast Halal" />
+      <column name="price" value="987" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ice Cream - Life Savers" />
+      <column name="price" value="869" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mustard - Dijon" />
+      <column name="price" value="846" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Alsace Gewurztraminer" />
+      <column name="price" value="689" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Unsweetened" />
+      <column name="price" value="608" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Turnip - Wax" />
+      <column name="price" value="195" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Dark Callets" />
+      <column name="price" value="610" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mushroom - Chantrelle, Fresh" />
+      <column name="price" value="766" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tomatoes - Grape" />
+      <column name="price" value="764" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Concha Y Toro" />
+      <column name="price" value="541" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Spinach - Spinach Leaf" />
+      <column name="price" value="520" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Zero Transfat" />
+      <column name="price" value="994" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Venison - Liver" />
+      <column name="price" value="89" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Chianti Classico Riserva" />
+      <column name="price" value="714" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Granary Small Pull" />
+      <column name="price" value="133" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Lurton Merlot De" />
+      <column name="price" value="693" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Cabernet Sauvignon" />
+      <column name="price" value="756" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beets - Candy Cane, Organic" />
+      <column name="price" value="695" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Plasticspoonblack" />
+      <column name="price" value="335" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Onions - Red Pearl" />
+      <column name="price" value="82" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rabbit - Whole" />
+      <column name="price" value="637" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jam - Apricot" />
+      <column name="price" value="105" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cake Slab" />
+      <column name="price" value="414" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Sorrano" />
+      <column name="price" value="20" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pie Filling - Pumpkin" />
+      <column name="price" value="712" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Julienne, Frozen" />
+      <column name="price" value="168" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nut - Pecan, Pieces" />
+      <column name="price" value="616" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shichimi Togarashi Peppeers" />
+      <column name="price" value="980" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Syrup - Chocolate" />
+      <column name="price" value="426" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Merlot Vina Carmen" />
+      <column name="price" value="210" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Mix - Mango Sour Cherry" />
+      <column name="price" value="856" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mushroom - Morels, Dry" />
+      <column name="price" value="604" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Quinoa" />
+      <column name="price" value="600" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Batt - Blueberry Passion" />
+      <column name="price" value="709" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Turnip - Mini" />
+      <column name="price" value="962" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Eggroll" />
+      <column name="price" value="803" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Table Cloth 72x144 White" />
+      <column name="price" value="352" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bacardi Breezer - Strawberry" />
+      <column name="price" value="593" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Assorted Rolls" />
+      <column name="price" value="930" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gelatine Leaves - Bulk" />
+      <column name="price" value="1" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Chillies, Crushed" />
+      <column name="price" value="246" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cinnamon Buns Sticky" />
+      <column name="price" value="121" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Short Loin" />
+      <column name="price" value="457" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Quail - Jumbo Boneless" />
+      <column name="price" value="755" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Cranberry" />
+      <column name="price" value="489" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Roll, Whole Wheat" />
+      <column name="price" value="256" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee - Hazelnut Cream" />
+      <column name="price" value="158" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Onions Granulated" />
+      <column name="price" value="883" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Apple - Northern Spy" />
+      <column name="price" value="500" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbellschix Stew" />
+      <column name="price" value="670" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffins - Assorted" />
+      <column name="price" value="737" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Lemon" />
+      <column name="price" value="596" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mini - Vol Au Vents" />
+      <column name="price" value="386" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Lemon Scented" />
+      <column name="price" value="270" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - German Riesling" />
+      <column name="price" value="827" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Montreal Smoked Brisket" />
+      <column name="price" value="229" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Curry Powder Madras" />
+      <column name="price" value="54" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wild Boar - Tenderloin" />
+      <column name="price" value="572" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Harrow Estates, Cab" />
+      <column name="price" value="254" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Mozzarella, Buffalo" />
+      <column name="price" value="691" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Fond - Chocolate" />
+      <column name="price" value="76" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="White Fish - Filets" />
+      <column name="price" value="839" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Everfresh Products" />
+      <column name="price" value="966" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Jaboulet Cotes Du Rhone" />
+      <column name="price" value="628" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Chillies, Crushed" />
+      <column name="price" value="177" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Salmon - Canned" />
+      <column name="price" value="614" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - St. Paulin" />
+      <column name="price" value="386" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Blue Light" />
+      <column name="price" value="498" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cup - 4oz Translucent" />
+      <column name="price" value="108" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lotus Rootlets - Canned" />
+      <column name="price" value="386" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Ox Tongue, Pickled" />
+      <column name="price" value="463" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Baked Scones - Mini" />
+      <column name="price" value="909" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Prune" />
+      <column name="price" value="797" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mushroom - Chantrelle, Fresh" />
+      <column name="price" value="456" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Mix - Bran And Maple 15l" />
+      <column name="price" value="656" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tart Shells - Savory, 4" />
+      <column name="price" value="422" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Gewurztraminer Pierre" />
+      <column name="price" value="951" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tuna - Salad Premix" />
+      <column name="price" value="965" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Clam Nectar" />
+      <column name="price" value="66" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Charddonnay Errazuriz" />
+      <column name="price" value="317" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Orzo, Dry" />
+      <column name="price" value="247" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - White, Cooking" />
+      <column name="price" value="992" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Provolone" />
+      <column name="price" value="523" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pea - Snow" />
+      <column name="price" value="850" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Fish - Scallops, Cold Smoked" />
+      <column name="price" value="670" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab - Hobart Washarm End Cap" />
+      <column name="price" value="721" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Truffle Shells - White Chocolate" />
+      <column name="price" value="709" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Burritos" />
+      <column name="price" value="41" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rosemary - Primerba, Paste" />
+      <column name="price" value="116" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Kiwi" />
+      <column name="price" value="10" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yokaline" />
+      <column name="price" value="294" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Food Colouring - Pink" />
+      <column name="price" value="536" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bandage - Flexible Neon" />
+      <column name="price" value="778" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb - Shoulder, Boneless" />
+      <column name="price" value="748" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bar Mix - Lemon" />
+      <column name="price" value="7" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal Inside - Provimi" />
+      <column name="price" value="483" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pie Shell - 9" />
+      <column name="price" value="756" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tofu - Soft" />
+      <column name="price" value="932" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Turkey - Ground. Lean" />
+      <column name="price" value="933" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Eggplant - Asian" />
+      <column name="price" value="267" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Spice - Pepper Portions" />
+      <column name="price" value="92" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flour - All Purpose" />
+      <column name="price" value="766" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cookie Chocolate Chip With" />
+      <column name="price" value="370" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb - Shoulder" />
+      <column name="price" value="172" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Trueblue - Blueberry 12x473ml" />
+      <column name="price" value="712" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flour - Whole Wheat" />
+      <column name="price" value="579" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cardamon Seed / Pod" />
+      <column name="price" value="135" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Avocado" />
+      <column name="price" value="3" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Fava Fresh" />
+      <column name="price" value="957" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dried Figs" />
+      <column name="price" value="820" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Apple, 341 Ml" />
+      <column name="price" value="552" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sole - Iqf" />
+      <column name="price" value="949" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dc - Sakura Fu" />
+      <column name="price" value="504" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Maudite" />
+      <column name="price" value="298" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Chablis 2003 Champs" />
+      <column name="price" value="771" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Butter - Pod" />
+      <column name="price" value="410" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Smoked Back Bacon" />
+      <column name="price" value="89" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Herbal - 6 Asst" />
+      <column name="price" value="102" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Penne, Rigate, Dry" />
+      <column name="price" value="832" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Raisin Walnut Oval" />
+      <column name="price" value="589" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Lime" />
+      <column name="price" value="456" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pears - Bosc" />
+      <column name="price" value="222" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Napkin White" />
+      <column name="price" value="439" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab - Medallion" />
+      <column name="price" value="382" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb - Leg, Bone In" />
+      <column name="price" value="838" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dill - Primerba, Paste" />
+      <column name="price" value="155" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bagelers - Cinn / Brown Sugar" />
+      <column name="price" value="294" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sesame Seed Black" />
+      <column name="price" value="253" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lid - 16 Oz And 32 Oz" />
+      <column name="price" value="670" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Salmon Steak - Cohoe 8 Oz" />
+      <column name="price" value="536" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Hipnotiq Liquor" />
+      <column name="price" value="343" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Steampan - Half Size Shallow" />
+      <column name="price" value="854" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Grapefruit - Pink" />
+      <column name="price" value="423" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Cabernet Merlot" />
+      <column name="price" value="909" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cake - Pancake" />
+      <column name="price" value="443" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread Base - Toscano" />
+      <column name="price" value="209" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Salmon - Smoked, Sliced" />
+      <column name="price" value="518" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Pita" />
+      <column name="price" value="42" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Crush - Orange, 355ml" />
+      <column name="price" value="251" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Napkin - Beverge, White 2 - Ply" />
+      <column name="price" value="251" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Green, Chili" />
+      <column name="price" value="525" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Transfer Sheets" />
+      <column name="price" value="673" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Chili" />
+      <column name="price" value="885" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chinese Foods - Chicken Wing" />
+      <column name="price" value="289" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Banana - Green" />
+      <column name="price" value="569" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Milk - Buttermilk" />
+      <column name="price" value="740" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Lou Black Shiraz" />
+      <column name="price" value="545" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="The Pop Shoppe - Black Cherry" />
+      <column name="price" value="177" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Tomato, 10 Oz" />
+      <column name="price" value="765" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Squeeze Bottle" />
+      <column name="price" value="612" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Green" />
+      <column name="price" value="159" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Safflower" />
+      <column name="price" value="781" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Browning Caramel Glace" />
+      <column name="price" value="53" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Celery" />
+      <column name="price" value="964" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetiser - Bought" />
+      <column name="price" value="727" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Balbach Riverside" />
+      <column name="price" value="278" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sobe - Lizard Fuel" />
+      <column name="price" value="415" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Allspice - Jamaican" />
+      <column name="price" value="97" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cleaner - Comet" />
+      <column name="price" value="102" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Island Oasis - Strawberry" />
+      <column name="price" value="866" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Uniform Linen Charge" />
+      <column name="price" value="184" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Fine" />
+      <column name="price" value="199" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sausage - Meat" />
+      <column name="price" value="306" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Hardys Bankside Shiraz" />
+      <column name="price" value="235" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Corn Shoots" />
+      <column name="price" value="250" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yeast - Fresh, Fleischman" />
+      <column name="price" value="799" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flower - Daisies" />
+      <column name="price" value="850" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Creme De Banane - Marie" />
+      <column name="price" value="814" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Bones, Marrow" />
+      <column name="price" value="631" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Snapple Lemon Tea" />
+      <column name="price" value="822" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Inside Round" />
+      <column name="price" value="706" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mustard - Dijon" />
+      <column name="price" value="613" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lid Tray - 12in Dome" />
+      <column name="price" value="183" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Spoon - Soup, Plastic" />
+      <column name="price" value="364" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="V8 - Tropical Blend" />
+      <column name="price" value="120" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gatorade - Xfactor Berry" />
+      <column name="price" value="134" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sesame Seed" />
+      <column name="price" value="804" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Black Opal Shiraz" />
+      <column name="price" value="583" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Jasmin Green" />
+      <column name="price" value="879" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Octopus" />
+      <column name="price" value="163" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nut - Pecan, Halves" />
+      <column name="price" value="507" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Baking Powder" />
+      <column name="price" value="449" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Chops, Split, Frenched" />
+      <column name="price" value="562" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cake Sheet Combo Party Pack" />
+      <column name="price" value="543" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Glass Clear 8 Oz" />
+      <column name="price" value="746" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jello - Assorted" />
+      <column name="price" value="305" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="External Supplier" />
+      <column name="price" value="842" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lentils - Green Le Puy" />
+      <column name="price" value="232" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Bones, Cut - Up" />
+      <column name="price" value="910" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Garbag Bags - Black" />
+      <column name="price" value="30" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Trippleberry Muffin - Mini" />
+      <column name="price" value="143" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Truffle Shells - White Chocolate" />
+      <column name="price" value="626" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Garbag Bags - Black" />
+      <column name="price" value="96" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Duboeuf Beaujolais" />
+      <column name="price" value="921" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cream - 18%" />
+      <column name="price" value="288" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Back, Short Cut, Boneless" />
+      <column name="price" value="287" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lemonade - Black Cherry, 591 Ml" />
+      <column name="price" value="33" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Parsley - Dried" />
+      <column name="price" value="143" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Granary Small Pull" />
+      <column name="price" value="882" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Propel Sport" />
+      <column name="price" value="72" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cabbage - Nappa" />
+      <column name="price" value="565" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee - Colombian, Portioned" />
+      <column name="price" value="166" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Curry Paste - Green Masala" />
+      <column name="price" value="239" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bowl 12 Oz - Showcase 92012" />
+      <column name="price" value="336" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Base Broth Beef" />
+      <column name="price" value="8" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bandage - Finger Cots" />
+      <column name="price" value="331" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Crab Meat Claw Pasteurise" />
+      <column name="price" value="852" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Heinekin" />
+      <column name="price" value="201" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Penne Primavera, Single" />
+      <column name="price" value="670" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Crackers - Trio" />
+      <column name="price" value="36" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Orange Roughy 4/6 Oz" />
+      <column name="price" value="870" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Alexander Kieths, Pale Ale" />
+      <column name="price" value="138" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nut - Pumpkin Seeds" />
+      <column name="price" value="670" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Butt, Boneless" />
+      <column name="price" value="831" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chicken - Soup Base" />
+      <column name="price" value="87" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Loaf Pan - 2 Lb, Foil" />
+      <column name="price" value="457" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Orange - Blood" />
+      <column name="price" value="998" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee Decaf Colombian" />
+      <column name="price" value="216" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Numi - Assorted Teas" />
+      <column name="price" value="851" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Mini Hamburger Bun" />
+      <column name="price" value="833" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Dark Rye, Loaf" />
+      <column name="price" value="725" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Asiago" />
+      <column name="price" value="843" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Samosa - Veg" />
+      <column name="price" value="172" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gelatine Powder" />
+      <column name="price" value="79" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oven Mitts - 15 Inch" />
+      <column name="price" value="67" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Lemon Danish - Mini" />
+      <column name="price" value="929" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beets - Candy Cane, Organic" />
+      <column name="price" value="469" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Cotes Du Rhone Parallele" />
+      <column name="price" value="332" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beets - Mini Golden" />
+      <column name="price" value="683" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dasheen" />
+      <column name="price" value="97" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tomatoes - Roma" />
+      <column name="price" value="456" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Magnotta - Pinot Gris Sr" />
+      <column name="price" value="734" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Placemat - Scallop, White" />
+      <column name="price" value="332" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Knorr, Classic Can. Chili" />
+      <column name="price" value="461" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Apricots Fresh" />
+      <column name="price" value="628" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Miso Paste White" />
+      <column name="price" value="512" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - White" />
+      <column name="price" value="918" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cabbage - Green" />
+      <column name="price" value="467" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Green, Chili" />
+      <column name="price" value="186" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flower - Potmums" />
+      <column name="price" value="846" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tomato - Tricolor Cherry" />
+      <column name="price" value="903" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cookies - Englishbay Wht" />
+      <column name="price" value="895" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Compound - Orange" />
+      <column name="price" value="629" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pie Pecan" />
+      <column name="price" value="21" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Butter - Salted" />
+      <column name="price" value="106" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Hand Towel" />
+      <column name="price" value="235" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cattail Hearts" />
+      <column name="price" value="222" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Beaujolais Villages" />
+      <column name="price" value="697" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab - Hobart Washarm End Cap" />
+      <column name="price" value="153" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dehydrated Kelp Kombo" />
+      <column name="price" value="305" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pickerel - Fillets" />
+      <column name="price" value="926" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Potatoes - Idaho 100 Count" />
+      <column name="price" value="326" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Pinot Noir Pond Haddock" />
+      <column name="price" value="869" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Fava Fresh" />
+      <column name="price" value="402" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sparkling Wine - Rose, Freixenet" />
+      <column name="price" value="959" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jameson - Irish Whiskey" />
+      <column name="price" value="472" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Glycerine" />
+      <column name="price" value="213" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tarragon - Fresh" />
+      <column name="price" value="199" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Container - Clear 16 Oz" />
+      <column name="price" value="707" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Crumbs, Bulk" />
+      <column name="price" value="381" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Miso Paste White" />
+      <column name="price" value="389" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Kale - Red" />
+      <column name="price" value="404" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Pumpkinseed" />
+      <column name="price" value="460" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rum - Mount Gay Eclipes" />
+      <column name="price" value="313" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Boursin, Garlic / Herbs" />
+      <column name="price" value="458" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Cooking" />
+      <column name="price" value="963" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mushroom - Porcini, Dry" />
+      <column name="price" value="522" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Extract - Raspberry" />
+      <column name="price" value="20" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Striploin" />
+      <column name="price" value="262" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sausage - Breakfast" />
+      <column name="price" value="787" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pails With Lids" />
+      <column name="price" value="953" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread Base - Gold Formel" />
+      <column name="price" value="999" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Transfer Sheets" />
+      <column name="price" value="261" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sugar - Crumb" />
+      <column name="price" value="325" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lambcasing" />
+      <column name="price" value="182" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells Beef Noodle" />
+      <column name="price" value="932" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Zinfandel California 2002" />
+      <column name="price" value="508" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Waffle Stix" />
+      <column name="price" value="424" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Guinea Fowl" />
+      <column name="price" value="339" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Casillero Deldiablo" />
+      <column name="price" value="809" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chickhen - Chicken Phyllo" />
+      <column name="price" value="874" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lychee - Canned" />
+      <column name="price" value="342" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jolt Cola - Red Eye" />
+      <column name="price" value="31" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mustard - Dijon" />
+      <column name="price" value="659" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Assorted Sandwich" />
+      <column name="price" value="737" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Vinegar - White" />
+      <column name="price" value="115" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chips - Miss Vickies" />
+      <column name="price" value="723" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nantucket Apple Juice" />
+      <column name="price" value="795" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Puree - Guava" />
+      <column name="price" value="776" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Milkettes - 2%" />
+      <column name="price" value="465" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Broom - Corn" />
+      <column name="price" value="428" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread Roll Foccacia" />
+      <column name="price" value="489" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Onions - Vidalia" />
+      <column name="price" value="528" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muskox - French Rack" />
+      <column name="price" value="549" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pie Shells 10" />
+      <column name="price" value="732" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - V8 Splash" />
+      <column name="price" value="40" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jicama" />
+      <column name="price" value="845" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Zucchini - Green" />
+      <column name="price" value="572" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Lasagna Veg" />
+      <column name="price" value="259" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nut - Almond, Blanched, Whole" />
+      <column name="price" value="869" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cakes Assorted" />
+      <column name="price" value="551" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Harrow Estates, Vidal" />
+      <column name="price" value="116" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Eye Of Round" />
+      <column name="price" value="322" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jam - Marmalade, Orange" />
+      <column name="price" value="590" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Irish Cream - Butterscotch" />
+      <column name="price" value="358" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Salad Dressing" />
+      <column name="price" value="177" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Charddonnay Errazuriz" />
+      <column name="price" value="890" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Hock And Feet Attached" />
+      <column name="price" value="304" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Loquat" />
+      <column name="price" value="245" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Sour Sticks With Onion" />
+      <column name="price" value="855" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chef Hat 25cm" />
+      <column name="price" value="981" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Truffle Cups - Brown" />
+      <column name="price" value="518" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cinnamon - Ground" />
+      <column name="price" value="896" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pineapple - Canned, Rings" />
+      <column name="price" value="769" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Napkin White - Starched" />
+      <column name="price" value="583" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Sausage Casing" />
+      <column name="price" value="571" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Scallops - 10/20" />
+      <column name="price" value="149" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Olive" />
+      <column name="price" value="954" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Langers - Cranberry Cocktail" />
+      <column name="price" value="969" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells, Chix Gumbo" />
+      <column name="price" value="765" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Anchovy Fillets" />
+      <column name="price" value="409" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Orzo, Dry" />
+      <column name="price" value="626" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - White, Mosel Gold" />
+      <column name="price" value="763" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dikon" />
+      <column name="price" value="658" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Plate Pie Foil" />
+      <column name="price" value="122" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cookie Dough - Double" />
+      <column name="price" value="977" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Sesame Thai Dressing" />
+      <column name="price" value="208" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Apple 284ml" />
+      <column name="price" value="179" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Margarine" />
+      <column name="price" value="309" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Island Oasis - Raspberry" />
+      <column name="price" value="643" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Taleggio D.o.p." />
+      <column name="price" value="159" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mushroom - Chantrelle, Fresh" />
+      <column name="price" value="258" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepsi - 600ml" />
+      <column name="price" value="805" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bouq All Italian - Primerba" />
+      <column name="price" value="788" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sausage - Blood Pudding" />
+      <column name="price" value="550" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Corn Shoots" />
+      <column name="price" value="777" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Beringer Founders Estate" />
+      <column name="price" value="964" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lid - 16 Oz And 32 Oz" />
+      <column name="price" value="770" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Thyme - Dried" />
+      <column name="price" value="988" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lemon Pepper" />
+      <column name="price" value="158" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Fond - Chocolate" />
+      <column name="price" value="500" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Lou Black Shiraz" />
+      <column name="price" value="857" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tart Shells - Sweet, 2" />
+      <column name="price" value="377" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Detalini, White, Fresh" />
+      <column name="price" value="651" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="V8 Splash Strawberry Banana" />
+      <column name="price" value="63" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Long Island Ice Tea" />
+      <column name="price" value="946" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Stock - Beef, Brown" />
+      <column name="price" value="136" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="V8 - Berry Blend" />
+      <column name="price" value="883" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cookies - Amaretto" />
+      <column name="price" value="126" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Herbal I Love Lemon" />
+      <column name="price" value="680" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Broccoli - Fresh" />
+      <column name="price" value="745" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Silicone Parch. 16.3x24.3" />
+      <column name="price" value="64" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Duck - Whole" />
+      <column name="price" value="63" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Syrup - Monin, Swiss Choclate" />
+      <column name="price" value="11" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Crab - Dungeness, Whole, live" />
+      <column name="price" value="936" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pie Filling - Pumpkin" />
+      <column name="price" value="584" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Ravioli" />
+      <column name="price" value="672" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pears - Bosc" />
+      <column name="price" value="983" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Parsnip" />
+      <column name="price" value="858" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Liquid Aminios Acid - Braggs" />
+      <column name="price" value="490" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Table Cloth 62x114 Colour" />
+      <column name="price" value="461" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Snapple Raspberry Tea" />
+      <column name="price" value="295" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Macaroons - Homestyle Two Bit" />
+      <column name="price" value="896" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Inside" />
+      <column name="price" value="813" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rabbit - Legs" />
+      <column name="price" value="604" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pineapple - Regular" />
+      <column name="price" value="693" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Casillero Del Diablo" />
+      <column name="price" value="339" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Molasses - Fancy" />
+      <column name="price" value="13" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gherkin - Sour" />
+      <column name="price" value="418" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Grapeseed Oil" />
+      <column name="price" value="651" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Merlot Vina Carmen" />
+      <column name="price" value="807" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Campari" />
+      <column name="price" value="197" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coconut - Creamed, Pure" />
+      <column name="price" value="616" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ginsing - Fresh" />
+      <column name="price" value="772" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Redchard Merritt" />
+      <column name="price" value="105" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gelatine Leaves - Envelopes" />
+      <column name="price" value="335" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Roll, Canadian Dinner" />
+      <column name="price" value="623" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Hickory Smoke, Liquid" />
+      <column name="price" value="437" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Verve - Chipotle Chicken" />
+      <column name="price" value="234" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Kobe Striploin" />
+      <column name="price" value="294" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Figs" />
+      <column name="price" value="151" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Olive Dinner Roll" />
+      <column name="price" value="704" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sugar Thermometer" />
+      <column name="price" value="234" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread Base - Gold Formel" />
+      <column name="price" value="700" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="External Supplier" />
+      <column name="price" value="348" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flour - Semolina" />
+      <column name="price" value="374" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tortillas - Flour, 8" />
+      <column name="price" value="613" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Sugar Free Semi Choc" />
+      <column name="price" value="7" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Scotch Bonnet" />
+      <column name="price" value="926" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Turkey - Breast, Bone - In" />
+      <column name="price" value="326" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef Tenderloin Aaa" />
+      <column name="price" value="528" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Hoisin" />
+      <column name="price" value="99" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bamboo Shoots - Sliced" />
+      <column name="price" value="339" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Asparagus - White, Fresh" />
+      <column name="price" value="967" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup Campbells - Italian Wedding" />
+      <column name="price" value="113" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sage Ground Wiberg" />
+      <column name="price" value="812" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Knorr, Classic Can. Chili" />
+      <column name="price" value="115" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Mascarpone" />
+      <column name="price" value="521" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Zonnebloem Pinotage" />
+      <column name="price" value="3" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Rosee" />
+      <column name="price" value="33" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Island Oasis - Mango Daiquiri" />
+      <column name="price" value="393" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Club Soda - Schweppes, 355 Ml" />
+      <column name="price" value="385" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chicken - Livers" />
+      <column name="price" value="281" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chips - Miss Vickies" />
+      <column name="price" value="988" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Asparagus - White, Canned" />
+      <column name="price" value="520" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Saint Emilion Calvet" />
+      <column name="price" value="265" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yogurt - Peach, 175 Gr" />
+      <column name="price" value="773" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="White Baguette" />
+      <column name="price" value="91" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Momiji Oroshi Chili Sauce" />
+      <column name="price" value="663" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rice - Basmati" />
+      <column name="price" value="152" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nantucket Apple Juice" />
+      <column name="price" value="426" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Ocean Spray Cranberry" />
+      <column name="price" value="490" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lime Cordial - Roses" />
+      <column name="price" value="344" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Mix - Strawberry Rhubarb" />
+      <column name="price" value="887" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Cooked, Corned" />
+      <column name="price" value="364" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Marechal Foch" />
+      <column name="price" value="395" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Feta" />
+      <column name="price" value="25" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Icecream - Dstk Super Cone" />
+      <column name="price" value="582" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Peppercorns - Green" />
+      <column name="price" value="345" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ocean Spray - Kiwi Strawberry" />
+      <column name="price" value="46" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pickle - Dill" />
+      <column name="price" value="90" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flax Seed" />
+      <column name="price" value="690" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bamboo Shoots - Sliced" />
+      <column name="price" value="2" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Aspic - Clear" />
+      <column name="price" value="177" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Energy Drink - Redbull 355ml" />
+      <column name="price" value="474" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - White, Unsliced" />
+      <column name="price" value="230" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Apron" />
+      <column name="price" value="649" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Cheese Baked Scones" />
+      <column name="price" value="913" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Cherry Danish - Mini" />
+      <column name="price" value="849" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pie Filling - Apple" />
+      <column name="price" value="333" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Miso Paste White" />
+      <column name="price" value="941" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jello - Assorted" />
+      <column name="price" value="6" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Pullman, Sliced" />
+      <column name="price" value="925" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Kale - Red" />
+      <column name="price" value="290" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rum - Coconut, Malibu" />
+      <column name="price" value="641" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Brocolinni - Gaylan, Chinese" />
+      <column name="price" value="97" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bok Choy - Baby" />
+      <column name="price" value="74" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Cheese Baked Scones" />
+      <column name="price" value="19" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Heavy Duty Dust Pan" />
+      <column name="price" value="17" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Fiddlehead - Frozen" />
+      <column name="price" value="646" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastrami" />
+      <column name="price" value="520" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - English Breakfast" />
+      <column name="price" value="135" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Darjeeling, Azzura" />
+      <column name="price" value="457" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Magnotta - Pinot Gris Sr" />
+      <column name="price" value="439" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yogurt - Banana, 175 Gr" />
+      <column name="price" value="528" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells, Chix Gumbo" />
+      <column name="price" value="420" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Monkfish Fresh - Skin Off" />
+      <column name="price" value="60" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flour Dark Rye" />
+      <column name="price" value="376" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Kimel Stick Poly" />
+      <column name="price" value="444" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Barolo Fontanafredda" />
+      <column name="price" value="763" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tart Shells - Barquettes, Savory" />
+      <column name="price" value="455" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sugar - Icing" />
+      <column name="price" value="527" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dill Weed - Fresh" />
+      <column name="price" value="79" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sugar - Crumb" />
+      <column name="price" value="811" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cake - Pancake" />
+      <column name="price" value="409" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nut - Almond, Blanched, Sliced" />
+      <column name="price" value="177" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Red, Finger Hot" />
+      <column name="price" value="374" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Margarine" />
+      <column name="price" value="59" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chips Potato Reg 43g" />
+      <column name="price" value="377" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Milk - 2% 250 Ml" />
+      <column name="price" value="3" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Hummus - Spread" />
+      <column name="price" value="298" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Olive Dinner Roll" />
+      <column name="price" value="849" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Chicken And Wild Rice" />
+      <column name="price" value="225" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Calvados - Boulard" />
+      <column name="price" value="472" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chives - Fresh" />
+      <column name="price" value="669" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Trimbach Pinot Blanc" />
+      <column name="price" value="603" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shiratamako - Rice Flour" />
+      <column name="price" value="769" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Water - Aquafina Vitamin" />
+      <column name="price" value="173" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Shiraz South Eastern" />
+      <column name="price" value="703" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bagel - Ched Chs Presliced" />
+      <column name="price" value="142" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Casablanca Valley" />
+      <column name="price" value="530" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Salt - Kosher" />
+      <column name="price" value="112" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shrimp - 150 - 250" />
+      <column name="price" value="32" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Olive" />
+      <column name="price" value="647" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - White" />
+      <column name="price" value="103" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rum - Coconut, Malibu" />
+      <column name="price" value="539" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Haggis" />
+      <column name="price" value="437" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bay Leaf" />
+      <column name="price" value="613" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetizer - Southwestern" />
+      <column name="price" value="681" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate Bar - Coffee Crisp" />
+      <column name="price" value="812" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Whmis Spray Bottle Graduated" />
+      <column name="price" value="68" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Barossa Valley Estate" />
+      <column name="price" value="799" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dc - Frozen Momji" />
+      <column name="price" value="716" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chips - Doritos" />
+      <column name="price" value="56" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chinese Foods - Plain Fried Rice" />
+      <column name="price" value="126" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Doilies - 10, Paper" />
+      <column name="price" value="808" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Icecream Bar - Del Monte" />
+      <column name="price" value="549" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coconut Milk - Unsweetened" />
+      <column name="price" value="614" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tequila Rose Cream Liquor" />
+      <column name="price" value="294" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shrimp - 16 - 20 Cooked, Peeled" />
+      <column name="price" value="930" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Agnolotti - Butternut" />
+      <column name="price" value="547" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Decaf Lipton" />
+      <column name="price" value="660" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tuna - Salad Premix" />
+      <column name="price" value="669" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Cooked, Corned" />
+      <column name="price" value="983" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sage Ground Wiberg" />
+      <column name="price" value="903" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chickensplit Half" />
+      <column name="price" value="568" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lettuce - Spring Mix" />
+      <column name="price" value="468" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Flat Bread" />
+      <column name="price" value="434" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Hog / Sausage Casing - Pork" />
+      <column name="price" value="524" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Knorr, Chicken Noodle" />
+      <column name="price" value="465" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Island Oasis - Peach Daiquiri" />
+      <column name="price" value="199" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mustard - Dry, Powder" />
+      <column name="price" value="147" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lemonade - Island Tea, 591 Ml" />
+      <column name="price" value="494" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rappini - Andy Boy" />
+      <column name="price" value="630" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bacon Strip Precooked" />
+      <column name="price" value="71" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Beringer Founders Estate" />
+      <column name="price" value="350" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dried Figs" />
+      <column name="price" value="278" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab Crystal Fusion" />
+      <column name="price" value="647" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab Crystal Fusion" />
+      <column name="price" value="565" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flower - Carnations" />
+      <column name="price" value="41" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shrimp - Black Tiger 13/15" />
+      <column name="price" value="39" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Grapefruit, 341 Ml" />
+      <column name="price" value="897" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sobe - Berry Energy" />
+      <column name="price" value="639" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Buffalo - Short Rib Fresh" />
+      <column name="price" value="446" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ice Cream Bar - Oreo Cone" />
+      <column name="price" value="760" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Tenderloin, Frozen" />
+      <column name="price" value="162" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gatorade - Orange" />
+      <column name="price" value="723" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ice Cream - Turtles Stick Bar" />
+      <column name="price" value="161" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells, Spinach Crm" />
+      <column name="price" value="312" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Knorr, Veg / Beef" />
+      <column name="price" value="848" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Star Fruit" />
+      <column name="price" value="615" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bar - Granola Trail Mix Fruit Nut" />
+      <column name="price" value="459" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cattail Hearts" />
+      <column name="price" value="551" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Hardys Bankside Shiraz" />
+      <column name="price" value="337" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Chips Compound" />
+      <column name="price" value="669" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Red Pepper Paste" />
+      <column name="price" value="649" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tuna - Fresh" />
+      <column name="price" value="802" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dill Weed - Fresh" />
+      <column name="price" value="253" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Hot Choc Vending" />
+      <column name="price" value="646" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Trout Rainbow Whole" />
+      <column name="price" value="426" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Chili Powder" />
+      <column name="price" value="666" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gin - Gilbeys London, Dry" />
+      <column name="price" value="59" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Roe - White Fish" />
+      <column name="price" value="106" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Wax" />
+      <column name="price" value="747" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Hinge Container 6" />
+      <column name="price" value="177" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Eel - Smoked" />
+      <column name="price" value="329" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Buffalo - Short Rib Fresh" />
+      <column name="price" value="750" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Black Bean, Canned" />
+      <column name="price" value="346" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chives - Fresh" />
+      <column name="price" value="257" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soupfoamcont12oz 112con" />
+      <column name="price" value="178" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Mix - Lemon Cranberry" />
+      <column name="price" value="292" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Blue Nun Qualitatswein" />
+      <column name="price" value="500" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sambuca - Ramazzotti" />
+      <column name="price" value="746" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Dill Weed - Dry" />
+      <column name="price" value="233" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Celery Root" />
+      <column name="price" value="993" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Metus Rose" />
+      <column name="price" value="764" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Laundry - Bag Cloth" />
+      <column name="price" value="461" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Alize Gold Passion" />
+      <column name="price" value="206" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lid Coffee Cup 8oz Blk" />
+      <column name="price" value="671" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chicken Breast Halal" />
+      <column name="price" value="906" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Brandy - Bar" />
+      <column name="price" value="600" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yokaline" />
+      <column name="price" value="128" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cape Capensis - Fillet" />
+      <column name="price" value="248" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - White, Colubia Cresh" />
+      <column name="price" value="477" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab - Mikroklene 4/4 L" />
+      <column name="price" value="486" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Fume Blanc Fetzer" />
+      <column name="price" value="281" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Fettuccine, Egg, Fresh" />
+      <column name="price" value="981" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells Beef Noodle" />
+      <column name="price" value="629" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Bran Ind Wrpd" />
+      <column name="price" value="252" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Radish - Black, Winter, Organic" />
+      <column name="price" value="272" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tamarillo" />
+      <column name="price" value="60" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb - Whole, Fresh" />
+      <column name="price" value="158" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Caviar - Salmon" />
+      <column name="price" value="451" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Spinach - Spinach Leaf" />
+      <column name="price" value="290" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lobak" />
+      <column name="price" value="82" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Winzer Krems Gruner" />
+      <column name="price" value="99" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Eggplant - Baby" />
+      <column name="price" value="735" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Durian Fruit" />
+      <column name="price" value="917" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Cotes Du Rhone" />
+      <column name="price" value="436" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Mix - Corn Harvest" />
+      <column name="price" value="231" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gloves - Goldtouch Disposable" />
+      <column name="price" value="501" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Coconut" />
+      <column name="price" value="722" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Grapefruit - Pink" />
+      <column name="price" value="992" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Alfredo" />
+      <column name="price" value="621" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Truffle Shells - White Chocolate" />
+      <column name="price" value="85" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Penfolds Koonuga Hill" />
+      <column name="price" value="178" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Apples - Spartan" />
+      <column name="price" value="459" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Corn Muffaletta" />
+      <column name="price" value="939" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Tenderlion, Center Cut" />
+      <column name="price" value="489" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Truffle - Whole Black Peeled" />
+      <column name="price" value="310" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee - Espresso" />
+      <column name="price" value="904" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Milk 2% 500 Ml" />
+      <column name="price" value="606" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetizer - Chicken Satay" />
+      <column name="price" value="353" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Spaghetti, Dry" />
+      <column name="price" value="671" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Steel Wool" />
+      <column name="price" value="24" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Navy, Dry" />
+      <column name="price" value="889" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chilli Paste, Sambal Oelek" />
+      <column name="price" value="753" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Guinea Fowl" />
+      <column name="price" value="512" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Vacuum Bags 12x16" />
+      <column name="price" value="643" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee - 10oz Cup 92961" />
+      <column name="price" value="125" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Ermite Bleu" />
+      <column name="price" value="16" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Le Cru Du Clocher" />
+      <column name="price" value="781" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Black Bean, Dry" />
+      <column name="price" value="960" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pail - 15l White, With Handle" />
+      <column name="price" value="444" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Squash - Pepper" />
+      <column name="price" value="865" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lid - Translucent, 3.5 And 6 Oz" />
+      <column name="price" value="60" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Stock - Veal, White" />
+      <column name="price" value="695" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Lemon" />
+      <column name="price" value="917" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Amaretto" />
+      <column name="price" value="799" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Munchies Honey Sweet Trail Mix" />
+      <column name="price" value="754" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sprouts - Baby Pea Tendrils" />
+      <column name="price" value="544" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pails With Lids" />
+      <column name="price" value="6" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Shank, Pieces" />
+      <column name="price" value="219" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Liqueur Cups With Foil" />
+      <column name="price" value="498" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee Cup 12oz 5342cd" />
+      <column name="price" value="131" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Soave Folonari" />
+      <column name="price" value="734" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Corn - Mini" />
+      <column name="price" value="618" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Versatainer Nc - 9388" />
+      <column name="price" value="907" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Roll, Whole Wheat" />
+      <column name="price" value="182" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Onions - Red" />
+      <column name="price" value="217" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee Caramel Biscotti" />
+      <column name="price" value="20" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Mint" />
+      <column name="price" value="652" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Vodka - Moskovskaya" />
+      <column name="price" value="536" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Fusili, Dry" />
+      <column name="price" value="761" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Marjoram - Fresh" />
+      <column name="price" value="14" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Breakfast Quesadillas" />
+      <column name="price" value="306" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Star Fruit" />
+      <column name="price" value="513" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Kidney, Canned" />
+      <column name="price" value="191" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Star Fruit" />
+      <column name="price" value="387" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Lasagna Veg" />
+      <column name="price" value="78" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Spice - Chili Powder Mexican" />
+      <column name="price" value="607" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cookie - Oatmeal" />
+      <column name="price" value="364" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Glaze - Clear" />
+      <column name="price" value="877" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chips - Potato Jalapeno" />
+      <column name="price" value="307" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Container - Hngd Cll Blk 7x7x3" />
+      <column name="price" value="662" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Crusty Italian Poly" />
+      <column name="price" value="340" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Chips Compound" />
+      <column name="price" value="28" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Kimel Stick Poly" />
+      <column name="price" value="65" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rye Special Old" />
+      <column name="price" value="111" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cake - Cake Sheet Macaroon" />
+      <column name="price" value="467" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tofu - Soft" />
+      <column name="price" value="345" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Toasted Head" />
+      <column name="price" value="812" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chick Peas - Canned" />
+      <column name="price" value="817" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup Campbells Beef With Veg" />
+      <column name="price" value="354" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Asparagus - Frozen" />
+      <column name="price" value="963" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cumin - Whole" />
+      <column name="price" value="547" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Melon - Watermelon Yellow" />
+      <column name="price" value="350" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Towel Dispenser" />
+      <column name="price" value="888" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Black, Whole" />
+      <column name="price" value="815" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coconut Milk - Unsweetened" />
+      <column name="price" value="303" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Venison - Striploin" />
+      <column name="price" value="782" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pumpkin - Seed" />
+      <column name="price" value="456" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tomato - Green" />
+      <column name="price" value="248" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb - Bones" />
+      <column name="price" value="398" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepperoni Slices" />
+      <column name="price" value="899" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Side Ribs" />
+      <column name="price" value="852" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soap - Pine Sol Floor Cleaner" />
+      <column name="price" value="171" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Scotch Bonnet" />
+      <column name="price" value="887" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Yogurt - Peach, 175 Gr" />
+      <column name="price" value="203" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Goldschalger" />
+      <column name="price" value="753" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lettuce - Boston Bib - Organic" />
+      <column name="price" value="187" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shiratamako - Rice Flour" />
+      <column name="price" value="911" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bacardi Breezer - Tropical" />
+      <column name="price" value="766" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Puree - Blackcurrant" />
+      <column name="price" value="225" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Peach - Halves" />
+      <column name="price" value="124" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Chili" />
+      <column name="price" value="572" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Mix - Mango Sour Cherry" />
+      <column name="price" value="823" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Creme De Banane - Marie" />
+      <column name="price" value="207" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Detalini, White, Fresh" />
+      <column name="price" value="695" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Bernaise, Mix" />
+      <column name="price" value="457" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Artichoke - Fresh" />
+      <column name="price" value="588" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Curry Paste - Green Masala" />
+      <column name="price" value="165" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Honey Green Tea" />
+      <column name="price" value="246" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Green Tea Refresher" />
+      <column name="price" value="300" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - White, Colubia Cresh" />
+      <column name="price" value="959" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Isomalt" />
+      <column name="price" value="227" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bay Leaf Fresh" />
+      <column name="price" value="287" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetizer - Asian Shrimp Roll" />
+      <column name="price" value="218" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Eye Of Round" />
+      <column name="price" value="368" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sachet" />
+      <column name="price" value="113" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Orange - Blood" />
+      <column name="price" value="569" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Amarula Cream" />
+      <column name="price" value="44" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee - Colombian, Portioned" />
+      <column name="price" value="495" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chick Peas - Canned" />
+      <column name="price" value="355" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cake - Night And Day Choclate" />
+      <column name="price" value="320" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Bresaola" />
+      <column name="price" value="91" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lettuce - Lambs Mash" />
+      <column name="price" value="368" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="V8 - Tropical Blend" />
+      <column name="price" value="391" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Turtle, Black, Dry" />
+      <column name="price" value="498" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Capers - Ox Eye Daisy" />
+      <column name="price" value="117" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sansho Powder" />
+      <column name="price" value="308" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Brisket, Provimi,bnls" />
+      <column name="price" value="719" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetizer - Veg Assortment" />
+      <column name="price" value="536" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Broom Handle" />
+      <column name="price" value="359" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Onion Powder" />
+      <column name="price" value="917" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Corn Meal" />
+      <column name="price" value="769" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beans - Black Bean, Dry" />
+      <column name="price" value="909" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Hipnotiq Liquor" />
+      <column name="price" value="685" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="The Pop Shoppe - Black Cherry" />
+      <column name="price" value="610" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Zonnebloem Pinotage" />
+      <column name="price" value="501" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sugar - Brown" />
+      <column name="price" value="719" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Periguita Fonseca" />
+      <column name="price" value="946" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Orange Roughy 4/6 Oz" />
+      <column name="price" value="497" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Eggplant Italian" />
+      <column name="price" value="272" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Puree - Blackcurrant" />
+      <column name="price" value="814" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Harrow Estates, Cab" />
+      <column name="price" value="984" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Ground Medium" />
+      <column name="price" value="896" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Trimbach Pinot Blanc" />
+      <column name="price" value="328" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Sleemans Honey Brown" />
+      <column name="price" value="766" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Peach - Fresh" />
+      <column name="price" value="988" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Mix - Strawberry Rhubarb" />
+      <column name="price" value="274" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells Beef Noodle" />
+      <column name="price" value="209" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Potatoes - Instant, Mashed" />
+      <column name="price" value="993" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Banana Muffin - Mini" />
+      <column name="price" value="216" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Petite Baguette" />
+      <column name="price" value="586" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chicken Breast Halal" />
+      <column name="price" value="409" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Stock - Fish" />
+      <column name="price" value="526" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Baked Cinnamon Stick" />
+      <column name="price" value="762" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Ice Wine" />
+      <column name="price" value="947" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nutmeg - Ground" />
+      <column name="price" value="604" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mustard Prepared" />
+      <column name="price" value="915" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Crackers - Soda / Saltins" />
+      <column name="price" value="138" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Rum - Cream, Amarula" />
+      <column name="price" value="615" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Pinot Noir Pond Haddock" />
+      <column name="price" value="381" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Rolls, Rye" />
+      <column name="price" value="322" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Milk - Homo" />
+      <column name="price" value="788" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Versatainer Nc - 8288" />
+      <column name="price" value="527" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tart Shells - Savory, 3" />
+      <column name="price" value="747" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Spic And Span All Purpose" />
+      <column name="price" value="592" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Corn Syrup" />
+      <column name="price" value="761" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chicken - Whole Fryers" />
+      <column name="price" value="343" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Green" />
+      <column name="price" value="394" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Taleggio D.o.p." />
+      <column name="price" value="581" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lettuce - Red Leaf" />
+      <column name="price" value="557" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Clam - Cherrystone" />
+      <column name="price" value="564" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Crush - Cream Soda" />
+      <column name="price" value="439" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gelatine Powder" />
+      <column name="price" value="174" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lemon Balm - Fresh" />
+      <column name="price" value="882" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Piping - Bags Quizna" />
+      <column name="price" value="615" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Duck - Fat" />
+      <column name="price" value="943" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cream - 10%" />
+      <column name="price" value="492" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Black, Ground" />
+      <column name="price" value="878" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lettuce - Belgian Endive" />
+      <column name="price" value="732" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells" />
+      <column name="price" value="58" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Plate Pie Foil" />
+      <column name="price" value="925" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sausage - Breakfast" />
+      <column name="price" value="41" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Butcher Twine 4r" />
+      <column name="price" value="514" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Sugar Free Semi Choc" />
+      <column name="price" value="762" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Octopus - Baby, Cleaned" />
+      <column name="price" value="910" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Orangina" />
+      <column name="price" value="554" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shrimp - Baby, Cold Water" />
+      <column name="price" value="218" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ice Cream - Fudge Bars" />
+      <column name="price" value="275" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Black Currant" />
+      <column name="price" value="446" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Manchego, Spanish" />
+      <column name="price" value="332" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Savigny - Les - Beaune" />
+      <column name="price" value="872" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Jam - Strawberry, 20 Ml Jar" />
+      <column name="price" value="714" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soap - Mr.clean Floor Soap" />
+      <column name="price" value="874" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flour Dark Rye" />
+      <column name="price" value="831" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Truffle Cups - White Paper" />
+      <column name="price" value="716" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce - Soya, Dark" />
+      <column name="price" value="886" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - George Duboeuf Rose" />
+      <column name="price" value="77" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Burritos" />
+      <column name="price" value="70" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Onions - Vidalia" />
+      <column name="price" value="463" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb - Leg, Bone In" />
+      <column name="price" value="196" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells, Lentil" />
+      <column name="price" value="119" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Longos - Chicken Wings" />
+      <column name="price" value="225" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pickerel - Fillets" />
+      <column name="price" value="325" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cookie Dough - Double" />
+      <column name="price" value="232" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Extract - Lemon" />
+      <column name="price" value="201" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sobe - Green Tea" />
+      <column name="price" value="286" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Magnotta, Merlot Sr Vqa" />
+      <column name="price" value="419" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Veal - Sweetbread" />
+      <column name="price" value="737" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Huck Towels White" />
+      <column name="price" value="488" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tuna - Fresh" />
+      <column name="price" value="579" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Island Oasis - Mango Daiquiri" />
+      <column name="price" value="353" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Saskatoon Berries - Frozen" />
+      <column name="price" value="701" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Glycerine" />
+      <column name="price" value="998" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Eel Fresh" />
+      <column name="price" value="415" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tray - 16in Rnd Blk" />
+      <column name="price" value="813" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mushrooms - Honey" />
+      <column name="price" value="118" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Roll, Whole Wheat" />
+      <column name="price" value="147" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bar Energy Chocchip" />
+      <column name="price" value="138" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Island Oasis - Pina Colada" />
+      <column name="price" value="321" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Table Cloth 81x81 White" />
+      <column name="price" value="311" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chestnuts - Whole,canned" />
+      <column name="price" value="459" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Kolrabi" />
+      <column name="price" value="158" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lamb Leg - Bone - In Nz" />
+      <column name="price" value="971" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nut - Pecan, Pieces" />
+      <column name="price" value="711" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Ground, Extra Lean, Fresh" />
+      <column name="price" value="282" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Madeira" />
+      <column name="price" value="91" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Mini Hamburger Bun" />
+      <column name="price" value="606" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Parasol Pick Stir Stick" />
+      <column name="price" value="83" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Nantucket - Kiwi Berry Cktl." />
+      <column name="price" value="576" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Antinori Santa" />
+      <column name="price" value="659" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Mussels - Cultivated" />
+      <column name="price" value="308" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Water - Spring Water 500ml" />
+      <column name="price" value="545" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lemons" />
+      <column name="price" value="765" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lotus Root" />
+      <column name="price" value="21" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Shrimp - 16/20, Iqf, Shell On" />
+      <column name="price" value="668" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Chardonnay Mondavi" />
+      <column name="price" value="573" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cookie Choc" />
+      <column name="price" value="797" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin - Bran Ind Wrpd" />
+      <column name="price" value="7" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Orange - Canned, Mandarin" />
+      <column name="price" value="403" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cherries - Maraschino,jar" />
+      <column name="price" value="964" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sping Loaded Cup Dispenser" />
+      <column name="price" value="169" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sunflower Seed Raw" />
+      <column name="price" value="544" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Earl Grey" />
+      <column name="price" value="855" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Broccoli - Fresh" />
+      <column name="price" value="272" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Comtomme" />
+      <column name="price" value="541" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Verve - Chipotle Chicken" />
+      <column name="price" value="44" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Raisin Muffin - Mini" />
+      <column name="price" value="388" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetizer - Chicken Satay" />
+      <column name="price" value="785" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pastry - Choclate Baked" />
+      <column name="price" value="949" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Red Cod Fillets - 225g" />
+      <column name="price" value="308" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Madeira" />
+      <column name="price" value="525" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pepper - Red, Finger Hot" />
+      <column name="price" value="873" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese - Augre Des Champs" />
+      <column name="price" value="303" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate Bar - Oh Henry" />
+      <column name="price" value="293" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bread - Italian Roll With Herbs" />
+      <column name="price" value="952" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coconut - Creamed, Pure" />
+      <column name="price" value="668" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tortillas - Flour, 12" />
+      <column name="price" value="132" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ham - Procutinni" />
+      <column name="price" value="373" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Juice - Lagoon Mango" />
+      <column name="price" value="507" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bananas" />
+      <column name="price" value="120" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Plate - Foam, Bread And Butter" />
+      <column name="price" value="992" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Skewers - Bamboo" />
+      <column name="price" value="202" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Pinot Noir Stoneleigh" />
+      <column name="price" value="513" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Inside Round" />
+      <column name="price" value="130" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beets - Pickled" />
+      <column name="price" value="659" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chicken - Livers" />
+      <column name="price" value="144" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tomato Puree" />
+      <column name="price" value="393" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Appetizer - Lobster Phyllo Roll" />
+      <column name="price" value="637" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Berry Brulee" />
+      <column name="price" value="308" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffins - Assorted" />
+      <column name="price" value="398" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Coteaux Du Tricastin Ac" />
+      <column name="price" value="461" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flour - Cake" />
+      <column name="price" value="302" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Butter Balls Salted" />
+      <column name="price" value="330" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pate - Liver" />
+      <column name="price" value="757" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flower - Daisies" />
+      <column name="price" value="72" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Red, Cabernet Sauvignon" />
+      <column name="price" value="707" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Olives - Black, Pitted" />
+      <column name="price" value="992" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pimento - Canned" />
+      <column name="price" value="307" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Sunflower" />
+      <column name="price" value="290" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Creme De Cacao Mcguines" />
+      <column name="price" value="655" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="C - Plus, Orange" />
+      <column name="price" value="398" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Mix - Corn Harvest" />
+      <column name="price" value="793" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells - Tomato" />
+      <column name="price" value="140" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wonton Wrappers" />
+      <column name="price" value="448" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="French Kiss Vanilla" />
+      <column name="price" value="507" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab - Hobart Upr Prewash Arm" />
+      <column name="price" value="319" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee - Beans, Whole" />
+      <column name="price" value="189" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Zucchini - Mini, Green" />
+      <column name="price" value="843" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Diced" />
+      <column name="price" value="262" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Puree - Passion Fruit" />
+      <column name="price" value="571" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab Digiclean Mild Fm" />
+      <column name="price" value="963" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Goat - Leg" />
+      <column name="price" value="679" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab - Power Fusion" />
+      <column name="price" value="64" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Muffin Mix - Raisin Bran" />
+      <column name="price" value="469" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Bamboo Shoots - Sliced" />
+      <column name="price" value="919" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sauce Tomato Pouch" />
+      <column name="price" value="399" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Corn - On The Cob" />
+      <column name="price" value="284" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cleaner - Pine Sol" />
+      <column name="price" value="941" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beef - Ox Tongue" />
+      <column name="price" value="37" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Tea - Herbal I Love Lemon" />
+      <column name="price" value="854" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Clams - Bay" />
+      <column name="price" value="996" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Vinegar - Rice" />
+      <column name="price" value="475" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Crackers Cheez It" />
+      <column name="price" value="991" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Flavouring Vanilla Artificial" />
+      <column name="price" value="822" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Periguita Fonseca" />
+      <column name="price" value="434" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Cheese Cloth" />
+      <column name="price" value="297" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Table Cloth 91x91 Colour" />
+      <column name="price" value="327" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pop - Club Soda Can" />
+      <column name="price" value="426" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Napkin White" />
+      <column name="price" value="113" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Chocolate - Liqueur Cups With Foil" />
+      <column name="price" value="631" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Table Cloth - 53x69 Colour" />
+      <column name="price" value="775" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Soup - Campbells - Chicken Noodle" />
+      <column name="price" value="421" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Kolrabi" />
+      <column name="price" value="638" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Magnotta Bel Paese Red" />
+      <column name="price" value="498" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Energy Drink Bawls" />
+      <column name="price" value="794" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Turkey Tenderloin Frozen" />
+      <column name="price" value="274" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Glove - Cutting" />
+      <column name="price" value="127" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sprite, Diet - 355ml" />
+      <column name="price" value="708" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Fish - Soup Base, Bouillon" />
+      <column name="price" value="915" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Coffee Swiss Choc Almond" />
+      <column name="price" value="8" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Beer - Sleemans Cream Ale" />
+      <column name="price" value="410" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Oil - Sunflower" />
+      <column name="price" value="944" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pasta - Cappellini, Dry" />
+      <column name="price" value="375" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Pork - Backfat" />
+      <column name="price" value="428" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Gherkin" />
+      <column name="price" value="678" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Lemonade - Strawberry, 591 Ml" />
+      <column name="price" value="75" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Ecolab - Ster Bac" />
+      <column name="price" value="227" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Plastic Wrap" />
+      <column name="price" value="71" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Arizona - Green Tea" />
+      <column name="price" value="377" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Wine - Prosecco Valdobienne" />
+      <column name="price" value="220" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Sproutsmustard Cress" />
+      <column name="price" value="771" />
+    </insert>
+    <insert schemaName="public" tableName="product">
+      <column name="name" value="Spinach - Baby" />
+      <column name="price" value="740" />
+    </insert>
+  </changeSet>
+</databaseChangeLog>

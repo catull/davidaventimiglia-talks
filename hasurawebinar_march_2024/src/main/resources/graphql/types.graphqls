@@ -1,0 +1,38 @@
+# -*- mode: graphql; -*-
+
+scalar LocalDateTime
+
+type account {
+  id: ID!
+  createdAt: LocalDateTime!
+  updatedAt: LocalDateTime
+  name: String!
+  orders: [order]
+}
+
+type order {
+  id: ID!
+  createdAt: LocalDateTime!
+  updatedAt: LocalDateTime
+  account: account
+  status: String!
+  orderDetail: [orderDetail]
+}
+
+type orderDetail {
+  id: ID!
+  createdAt: LocalDateTime!
+  updatedAt: LocalDateTime
+  product: product
+  order: order
+  units: Int!
+}
+
+type product {
+  id: ID!
+  createdAt: LocalDateTime!
+  updatedAt: LocalDateTime
+  name: String!
+  price: Int!
+  orderDetails: [orderDetail]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <include file="./constraint-0-order-account-id.xml"        relativeToChangelogFile="true" />
+    <include file="./constraint-1-order_detail_order_id.xml"   relativeToChangelogFile="true" />
+    <include file="./constraint-2-order_detail-product_id.xml" relativeToChangelogFile="true" />
+    <include file="./constraint-3-order-region.xml"            relativeToChangelogFile="true" />
+
+</databaseChangeLog>
