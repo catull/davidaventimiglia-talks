@@ -6,6 +6,7 @@ input AccountInput {
 
 input OrderInput {
   status: String
+  region: String
 }
 
 input OrderDetailInput {

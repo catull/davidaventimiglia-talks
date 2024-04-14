@@ -16,6 +16,7 @@ type order {
   updatedAt: LocalDateTime
   account: account
   status: String!
+  region: String!
   orderDetail: [orderDetail]
 }
 
@@ -35,4 +36,9 @@ type product {
   name: String!
   price: Int!
   orderDetails: [orderDetail]
+}
+
+type region {
+  value: String!
+  description: String!
 }

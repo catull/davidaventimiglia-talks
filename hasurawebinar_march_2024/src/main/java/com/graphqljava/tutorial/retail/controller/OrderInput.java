@@ -6,20 +6,30 @@ public class OrderInput {
 
     private String status;
 
+    private String region;
+
     private AccountInput accountInput;
 
     private List<OrderDetailInput> orderDetailInputs;
 
     public String getStatus() {
-        return status;
+        return this.status;
     }
 
     public void setStatus(final String status) {
         this.status = status;
     }
 
+    public String getRegion() {
+        return this.region;
+    }
+
+    public void setRegion(final String region) {
+        this.region = region;
+    }
+
     public AccountInput getAccountInput() {
-        return accountInput;
+        return this.accountInput;
     }
 
     public void setAccountInput(final AccountInput accountInput) {

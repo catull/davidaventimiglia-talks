@@ -16,4 +16,6 @@ type Query {
   productById(id: ID!): product
   allProducts: [product]!
   allProductsWithLimit(limit: Int!): [product]!
+
+  allRegions: [region]!
 }

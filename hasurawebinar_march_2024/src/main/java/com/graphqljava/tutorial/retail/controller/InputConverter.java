@@ -29,6 +29,7 @@ public class InputConverter {
 
         return Order.builder()
                 .withStatus(orderInput.getStatus())
+                .withRegion(orderInput.getRegion())
                 .withAccount(convert(orderInput.getAccountInput()))
                 .build();
     }

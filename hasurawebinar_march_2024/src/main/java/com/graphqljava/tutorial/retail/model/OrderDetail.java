@@ -5,11 +5,16 @@ import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
 @Table(name = "\"orderDetail\"")
@@ -22,8 +27,12 @@ public class OrderDetail
 	@GeneratedValue(strategy = GenerationType.UUID)
 	private UUID id;
 
+	@Column(name = "createdAt", updatable = false)
+	@CreationTimestamp
 	private LocalDateTime createdAt;
 
+	@Column(name = "updatedAt")
+	@UpdateTimestamp
 	private LocalDateTime updatedAt;
 
 	@Column(name = "product_id")
@@ -35,9 +44,11 @@ public class OrderDetail
 	private Integer units;
 
 	@Transient
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Product product;
 
 	@Transient
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Order order;
 
 	public void setId(final UUID id) {

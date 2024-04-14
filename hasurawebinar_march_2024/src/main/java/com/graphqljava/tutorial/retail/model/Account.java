@@ -4,14 +4,19 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.util.List;
 
@@ -26,14 +31,19 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
+    @Column(name = "createdAt", updatable = false)
+    @CreationTimestamp
     private LocalDateTime createdAt;
 
+    @Column(name = "updatedAt")
+    @UpdateTimestamp
     private LocalDateTime updatedAt;
 
     private String name;
 
     @Transient
     @OneToMany(mappedBy = "Account", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "account_id")
     private List<Order> orders;
 
     public void setId(final UUID id) {
