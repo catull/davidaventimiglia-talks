@@ -15,4 +15,6 @@ public interface OrderDetailRepository extends JpaRepository<OrderDetail, UUID>,
 
 	List<OrderDetail> findAllByProductId(final UUID product_id);
 
+	List<OrderDetail> findAllByOrderId(final UUID product_id);
+
 }

@@ -16,7 +16,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -49,7 +49,7 @@ public class Order {
 
     @OneToMany(fetch = FetchType.LAZY)
     @JoinColumn(name = "order_id")
-    private Set<OrderDetail> orderDetails = new HashSet<>();
+    private List<OrderDetail> orderDetails;
 
     public void setId(final UUID id) {
         this.id = id;
@@ -107,11 +107,11 @@ public class Order {
         return this.account;
     }
 
-    public Set<OrderDetail> getOrderDetails() {
-        return orderDetails;
+    public List<OrderDetail> getOrderDetails() {
+        return this.orderDetails;
     }
 
-    public void setOrderDetails(Set<OrderDetail> orderDetails) {
+    public void setOrderDetails(List<OrderDetail> orderDetails) {
         this.orderDetails = orderDetails;
     }
 
@@ -145,7 +145,7 @@ public class Order {
         private String status;
         private String region;
         private Account account;
-        public Set<OrderDetail> orderDetails;
+        public List<OrderDetail> orderDetails;
 
         public Builder withId(final UUID idParam) {
             this.id = idParam;
@@ -182,7 +182,7 @@ public class Order {
             return this;
         }
 
-        public Builder withOrderDetails(final Set<OrderDetail> orderDetails) {
+        public Builder withOrderDetails(final List<OrderDetail> orderDetails) {
             this.orderDetails = orderDetails;
             return this;
         }

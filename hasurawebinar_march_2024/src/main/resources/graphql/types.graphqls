@@ -17,7 +17,7 @@ type order {
   account: account
   status: String!
   region: String!
-  orderDetail: [orderDetail]
+  orderDetails: [orderDetail]
 }
 
 type orderDetail {

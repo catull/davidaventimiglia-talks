@@ -5,9 +5,12 @@ import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 import org.hibernate.annotations.CreationTimestamp;
@@ -38,6 +41,10 @@ public class Product
 	private String name;
 
 	private Integer price;
+
+	@OneToMany(fetch = FetchType.LAZY)
+	@JoinColumn(name = "product_id")
+	private List<OrderDetail> orderDetails;
 
 	public void setId(final UUID id) {
 		this.id = id;
@@ -79,6 +86,14 @@ public class Product
 		return this.price;
 	}
 
+	public List<OrderDetail> getOrderDetails() {
+		return this.orderDetails;
+	}
+
+	public void setOrderDetails(List<OrderDetail> orderDetails) {
+		this.orderDetails = orderDetails;
+	}
+
 	public String toString() {
         return "Product {"
 				+ "id: " + this.id
@@ -90,6 +105,8 @@ public class Product
 				+ "name: " + this.name
 				+ ", "
 				+ "price: " + this.price
+				+ ", "
+				+ "orderDetails: " + this.orderDetails
         		+ "}";
     }
 
@@ -142,6 +159,7 @@ public class Product
 			product.setUpdatedAt(this.updatedAt);
 			product.setName(this.name);
 			product.setPrice(this.price);
+			product.setOrderDetails(this.orderDetails);
 
 			return product;
 		}
